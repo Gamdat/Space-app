@@ -1,54 +1,95 @@
 .destination {
-
   background: url('/asset/destination/background-destination-desktop.jpg') no-repeat center/cover;
-
   min-height: 100vh;
-
   padding: 2rem;
-
   color: white;
-
 }
-
-
 
 .destination__tabs button {
-
   font-family: 'Barlow Condensed';
-
   text-transform: uppercase;
-
   letter-spacing: 2px;
-
   border: none;
-
   background: transparent;
-
   color: #D0D6F9;
-
-  margin-right: 2rem;
-
+  margin-right: 1rem;
   cursor: pointer;
-
+  position: relative;
+  top: 22rem;
+  left: 2rem;
 }
 
 
+hr{
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
 
 .destination__tabs button.active {
-
   border-bottom: 2px solid white;
-
   color: white;
-
 }
-
-
 
 .destination__info img {
-
   width: 300px;
-
   height: auto;
-
+  margin-bottom: 5rem;
+  margin-left: 2rem;
 }
 
+.destination h5{
+  font-size: 1rem;
+  color: antiquewhite;
+  font-weight: 100;
+}
+
+.destination span{
+  color: gray;
+  margin-right: 2rem;
+  margin-left: 4rem;
+}
+
+
+.dest{
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(248, 223, 191);
+  margin-bottom: 2rem;
+}
+
+
+p{
+  text-align: center;
+}
+
+
+
+h3{
+  font-size: 11px;
+  color: antiquewhite;
+  font-weight: 100;
+  text-align: center;
+}
+
+@media (max-width:500px) {
+  .destination {
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.destination__tabs button {
+  letter-spacing: 5px;
+   
+}
+
+.destination__tabs button.active {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.destination__info img {
+  width: 270px;
+  margin-top: 2rem;
+}
+
+}

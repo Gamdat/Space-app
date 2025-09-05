@@ -67,7 +67,44 @@
 
 
 
+@media (max-width:500px) {
+.technology__content {
+  flex-direction: column;
+}
 
+h5{
+  color: antiquewhite;
+}
 
+h5 span{
+  color: gray;
+}
+.technology__tabs button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: 100;
+}
 
+.technology__content h4 {
+ text-align: center;
+ font-weight: 100;
+ font-size: 16px;
+  color: rgb(247, 231, 212);
+}
 
+.technology__content h2 {
+  font-size: 30px;
+  text-align: center;
+  color: antiquewhite;
+  font-weight: 100;
+}
+
+.technology__content img {
+  max-width: 400px;
+  height: 25rem;
+  object-fit: contain;
+  margin-left: .4rem;
+}
+
+}

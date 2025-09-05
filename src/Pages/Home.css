@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   padding: 2rem;
-  margin-left: 5rem;
+  margin-left: 1rem;
   background: url('/asset/background-home-desktop.jpg') no-repeat center center/cover;
   background-color: #000;
 }
@@ -52,7 +52,7 @@
   }
 .home__content h5 {
   font-size: 15px;
-  margin-top: 2rem;
+  margin-top: -8rem;
 }
 
 .home__content h1 {
@@ -65,10 +65,10 @@
 
 .home__explore button {
   font-size: 19px;
-  width: 120px;
-  height: 120px;
-  margin-top: 32rem;
-  margin-left: -12.5rem;
+  width: 150px;
+  height: 150px;
+  margin-top: 25rem;
+  margin-left: -14.5rem;
   font-weight: 500;
   margin-bottom: 5rem;
 }

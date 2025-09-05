@@ -10,8 +10,9 @@ function TechnologyPage() {
 
   return (
     <main className="technology">
-      <h5><span>03</span> Space Launch 101</h5>
+      <h5><span>03</span> SPACE LAUNCH 101</h5>
       <div className="technology__content">
+         <img src={tech[activeIndex].images.portrait} alt={tech[activeIndex].name} />
         <div className="technology__tabs">
           {tech.map((_, index) => (
             <button 
@@ -28,7 +29,6 @@ function TechnologyPage() {
           <h2>{tech[activeIndex].name}</h2>
           <p>{tech[activeIndex].description}</p>
         </div>
-        <img src={tech[activeIndex].images.portrait} alt={tech[activeIndex].name} />
       </div>
     </main>
   );

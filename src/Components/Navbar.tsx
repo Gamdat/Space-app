@@ -1,37 +1,31 @@
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => setIsOpen(!isOpen);
+const closeMenu = () => setIsOpen(false);
   return (
-    <header className="navbar">
-      <img src="/asset/shared/logo.svg" alt="logo" className="navbar__logo" />
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/" end>
-              <span>00</span> Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/destination">
-              <span>01</span> Destination
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/crew">
-              <span>02</span> Crew
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/technology">
-              <span>03</span> Technology
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav className="navbar">
+      <img src="/asset/shared/logo.svg" alt="logo" className="navbar-logo" />
+      {/* Hamburger Icon */}
+      <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      {/* Slide-out menu */}
+      <div className={`nav-links ${isOpen ? "active" : ""}`}>
+        <Link to="/home" onClick={closeMenu}>Home</Link>
+        <Link to="/destination" onClick={closeMenu}>Destination</Link>
+        <Link to="/crew" onClick={closeMenu}>Crew</Link>
+        <Link to="/technology" onClick={closeMenu}>Technology</Link>
+      </div>
+    </nav>
   );
-}
+};
 
 export default Navbar;
 

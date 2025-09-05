@@ -15,7 +15,7 @@ function DestinationPage() {
 
     <main className="destination">
 
-      <h5><span>01</span> Pick your destination</h5>
+      <h5><span>01</span> PICK YOUR DESTINATION</h5>
 
 
 
@@ -54,18 +54,18 @@ function DestinationPage() {
         <div className="destination__stats">
 
           <div>
+<hr/>
+            <h3>AVG. DISTANCE</h3>
 
-            <h6>Avg. Distance</h6>
-
-            <p>{destinations[activeIndex].distance}</p>
+            <p className="dest">{destinations[activeIndex].distance}</p>
 
           </div>
 
           <div>
 
-            <h6>Est. Travel Time</h6>
+            <h3>EST. TRAVEL TIME </h3>
 
-            <p>{destinations[activeIndex].travel}</p>
+            <p className="dest">{destinations[activeIndex].travel}</p>
 
           </div>
 
