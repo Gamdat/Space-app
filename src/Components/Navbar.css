@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar__logo {
+  height: 48px;
+}
+
+.navbar nav {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40px);
+  padding: 0 4rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 2rem 0;
+  display: inline-block;
+}
+
+.navbar a span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid #fff;
+}
+

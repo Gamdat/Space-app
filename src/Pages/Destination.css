@@ -1,0 +1,54 @@
+.destination {
+
+  background: url('/asset/destination/background-destination-desktop.jpg') no-repeat center/cover;
+
+  min-height: 100vh;
+
+  padding: 2rem;
+
+  color: white;
+
+}
+
+
+
+.destination__tabs button {
+
+  font-family: 'Barlow Condensed';
+
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+
+  border: none;
+
+  background: transparent;
+
+  color: #D0D6F9;
+
+  margin-right: 2rem;
+
+  cursor: pointer;
+
+}
+
+
+
+.destination__tabs button.active {
+
+  border-bottom: 2px solid white;
+
+  color: white;
+
+}
+
+
+
+.destination__info img {
+
+  width: 300px;
+
+  height: auto;
+
+}
+

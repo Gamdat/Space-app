@@ -1,0 +1,116 @@
+.crew {
+
+  background: url("/asset/crew/background-crew-desktop.jpg") no-repeat center/cover;
+
+  min-height: 100vh;
+
+  padding: 4rem;
+
+  color: #fff;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+.crew__content {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 2rem;
+
+}
+
+
+
+.crew__content img {
+
+  height: 500px;
+
+  object-fit: contain;
+
+}
+
+
+
+.crew__content h4 {
+
+  font-family: "Bellefair", serif;
+
+  font-size: 32px;
+
+  opacity: 0.5;
+
+  text-transform: uppercase;
+
+}
+
+
+
+.crew__content h2 {
+
+  font-family: "Bellefair", serif;
+
+  font-size: 56px;
+
+  margin: 1rem 0;
+
+  text-transform: uppercase;
+
+}
+
+
+
+.crew__content p {
+
+  font-family: "Barlow", sans-serif;
+
+  line-height: 1.8;
+
+  max-width: 400px;
+
+}
+
+
+
+.crew__dots {
+
+  margin-top: 2rem;
+
+}
+
+
+
+.crew__dots button {
+
+  width: 15px;
+
+  height: 15px;
+
+  border-radius: 50%;
+
+  border: none;
+
+  margin-right: 1rem;
+
+  background: #979797;
+
+  cursor: pointer;
+
+}
+
+
+
+.crew__dots button.active {
+
+  background: #fff;
+
+}
+

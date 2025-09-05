@@ -1,0 +1,73 @@
+.technology {
+  background: url("/asset/technology/background-technology-desktop.jpg") no-repeat center/cover;
+  min-height: 100vh;
+  padding: 4rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.technology__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.technology__tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.technology__tabs button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-family: "Bellefair", serif;
+  font-size: 24px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #979797;
+  cursor: pointer;
+}
+
+.technology__tabs button.active {
+  background: #fff;
+  color: #0b0d17;
+  border: none;
+}
+
+.technology__content h4 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
+  color: #d0d6f9;
+}
+
+.technology__content h2 {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.technology__content p {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.8;
+  max-width: 400px;
+}
+
+.technology__content img {
+  max-width: 500px;
+  object-fit: contain;
+  margin-left: -5rem;
+}
+
+
+
+
+
+
+
